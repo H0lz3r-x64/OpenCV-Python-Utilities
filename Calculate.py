@@ -16,8 +16,7 @@ class Calculate:
         :param col: Columns of grid
         :param row: Rows of grid
         :param textarea: True if textarea should get calculated
-        :return: -> Tuple: (field_w, checkbox_h, textarea_h)
-                 -> Tuple: (field_w, field_h)
+        :return: Tuple: (field_w, checkbox_h, textarea_h), Tuple: (field_w, field_h)
         """
         h, w = canvas.shape[:2]
         start_x, start_y, start_w, start_h = 0, 0, w, h
