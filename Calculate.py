@@ -1,9 +1,8 @@
 import numpy as np
 import cv2
-
-from Util import Windows
-from Util import Contours
-from Util import Image
+import importlib
+Image = importlib.import_module("OpenCV-Python-Utilities.Image", "Image")
+Contours = importlib.import_module("OpenCV-Python-Utilities.Contours", "Contours")
 
 
 class Calculate:

@@ -1,9 +1,6 @@
 import numpy as np
 import cv2
 
-from Util import Contours
-from Util import Calculate
-
 
 class Image:
     @classmethod

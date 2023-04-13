@@ -1,11 +1,8 @@
-from abc import abstractmethod
 import numpy as np
 import cv2
-
-import Util
-from Util import Contours
-from Util import Calculate
-from Util import Image
+import importlib
+Util = importlib.import_module("OpenCV-Python-Utilities")
+Calculate = importlib.import_module("OpenCV-Python-Utilities.Calculate")
 
 
 class Draw:

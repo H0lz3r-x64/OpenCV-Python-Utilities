@@ -2,10 +2,6 @@ import numpy as np
 import cv2
 from numpy import ndarray
 
-from Util import Windows
-from Util import Image
-from Util import Calculate
-
 
 class Contours:
     @classmethod
